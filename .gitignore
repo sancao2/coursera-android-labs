@@ -33,3 +33,4 @@ proguard/
 
 # Emacs backup files
 *.*~
+*.zip

@@ -30,11 +30,14 @@ public class ActivityOne extends Activity {
 
 	// You will need to increment these variables' values when their
 	// corresponding lifecycle methods get called.
-
+    private static int mCreate = 0;
+    private static int mRestart = 0;
+    private static int mStart = 0;
+    private static int mResume = 0;
 	// TODO: Create variables for each of the TextViews
 	// named mTvCreate, mTvRestart, mTvStart, mTvResume.
 	// for displaying the current count of each counter variable
-
+    private static TextView
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
